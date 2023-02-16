@@ -1,0 +1,48 @@
+/*------------------------------------------------------------
+other
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-label {
+    padding: 5px 22px;
+    line-height: 1.6;
+    width: fit-content;
+    color: #222;
+
+    &--home {
+        background-color: #ffdfdf;
+        font-size: 1.6rem;
+        font-weight: 700;
+        margin-bottom: 11px;
+    }
+
+    &--post {
+        font-weight: 400;
+        line-height: 1.4;
+        padding-block: 5px;
+        padding-left: 21px;
+        position: absolute;
+    }
+
+    &--feature {
+        margin-top: 15px;
+        margin-bottom: 17px;
+        font-size: 1.4rem;
+        line-height: 1.4;
+    }
+
+
+
+    &--green {
+        background-color: #a3d39c;
+    }
+
+    &--yellow {
+        background-color: #fff799;
+    }
+
+    &--pink {
+        background-color: #ffdfdf;
+    }
+}
