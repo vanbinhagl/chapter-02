@@ -20,7 +20,7 @@
 
         .c-post__text {
             font-size: 1.4rem;
-            line-height: 1.4;
+            line-height: 1.45;
             flex: 0;
             margin-top: 12px;
         }
@@ -54,22 +54,25 @@
     width: calc((100% / 3) - 50px);
     margin-left: 50px;
     margin-bottom: 45px;
-
-    .c-feature__title {
-        font-size: 1.4rem;
-        line-height: 1.4;
-        font-weight: 500;
-    }
 }
 
 .c-blog__post {
     width: calc(50% - 50px);
     margin-left: 50px;
     margin-bottom: 45px;
+}
 
-    .c-post__title {
-        font-size: 1.4rem;
-        line-height: 1.4;
-        font-weight: 500;
+.c-post__title {
+    font-size: 1.4rem;
+    line-height: 1.4;
+    font-weight: 500;
+
+    &--bold {
+        font-weight: 700;
     }
+}
+
+.c-post__image {
+    height: 185px;
+    
 }

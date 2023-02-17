@@ -2,23 +2,106 @@
   <div class="c-footer__top">
     <div class="c-footer__breadcrumb">
       <div class="l-container">
-        <p><i class="fa-solid fa-house"></i> HOME</p>
+        <p>
+          <i class="fa-solid fa-house"></i> HOME <%- (typeof breadcrumb !=
+          'undefined' ? '<i class="c-breadcrumb__arrow fa-solid fa-angle-right"></i>' : '') %> 
+          <%= (typeof breadcrumb != "undefined" ? breadcrumb : "")
+          %>
+        </p>
       </div>
     </div>
 
     <div class="c-footer__menu l-container">
       <div class="c-footer__box">
-        <div class="c-box__title">Box link 1</div>
+        <div>
+          <div class="c-box__title">Box link 1</div>
+          <ul class="c-box__list">
+            <li class="c-box__link">
+              <i class="c-box__icon c-box__icon--circle fa-solid fa-circle"></i
+              ><a href="#">Link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon c-box__icon--circle fa-solid fa-circle"></i
+              ><a href="#">Link &nbsp;link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon c-box__icon--circle fa-solid fa-circle"></i>
+              <a href="#">Link &nbsp;link link link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon c-box__icon--circle fa-solid fa-circle"></i>
+              <a href="#">Link link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon c-box__icon--circle fa-solid fa-circle"></i
+              ><a href="#">Link link link link</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="c-box__title">Box link 1</div>
+          <ul class="c-box__list">
+            <li class="c-box__link">
+              <i class="c-box__icon fa-solid fa-chevron-right"></i>
 
-        <ul>
-          <li class="c-box__link"><a href="#">Link link</a></li>
-          <li class="c-box__link"><a href="#">Link &nbsp;link link</a></li>
-          <li class="c-box__link"><a href="#">Link &nbsp;link link link link</a></li>
-          <li class="c-box__link"><a href="#">Link link link</a></li>
-          <li class="c-box__link"><a href="#">Link link link link</a></li>
-        </ul>
+              <a href="#">Link link link link link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon fa-solid fa-chevron-right"></i>
+
+              <a href="#">Link&nbsp; link link link link link link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon fa-solid fa-chevron-right"></i>
+
+              <a href="#">Link&nbsp; link link link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon fa-solid fa-chevron-right"></i>
+
+              <a href="#">Link link link link link link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon fa-solid fa-chevron-right"></i>
+
+              <a href="#">Link link link link link link link link link</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="c-box__title">Box link 1</div>
+          <ul class="c-box__list">
+            <li class="c-box__link">
+              <i class="c-box__icon fa-solid fa-link"></i>
+
+              <a href="#">Link link link link link link link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon fa-solid fa-link"></i>
+
+              <a href="#">Link&nbsp; link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon fa-solid fa-link"></i>
+
+              <a href="#">Link&nbsp; link link link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon fa-solid fa-link"></i>
+
+              <a href="#">Link link link link link link link link link link</a>
+            </li>
+            <li class="c-box__link">
+              <i class="c-box__icon fa-solid fa-link"></i>
+
+              <a href="#">Link link link link</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
-  <div class="l-container">©2019 ALLGROW LABO Inc.</div>
+  <div class="l-container c-footer__copyright">
+    © Copyright Allgrow Labo 2018
+  </div>
 </footer>

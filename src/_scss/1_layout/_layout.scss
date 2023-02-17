@@ -17,3 +17,11 @@ body {
     width: $base-width;
     margin: 0 auto;
 }
+
+.c-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+    row-gap: 16px;
+    padding-top: 4px;
+}

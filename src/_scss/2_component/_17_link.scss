@@ -1,0 +1,15 @@
+.c-link {
+    text-decoration: underline;
+
+    &--blue {
+        color: #3d6afb;
+    }
+
+    &--red {
+        color: #f00;
+    }
+
+    &--yellow {
+        color: #ff9c00;
+    }
+}

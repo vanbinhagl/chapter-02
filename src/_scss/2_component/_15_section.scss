@@ -3,7 +3,7 @@
     margin-bottom: 60px;
 
     .c-section__header {
-        padding: 14px;
+        padding: 14px 14px 12px;
         padding-left: 20px;
         border: 1px solid #ffd800;
         border-left: 7px solid #ffd800;
@@ -12,8 +12,21 @@
 
         .c-header__title {
             font-size: 2.4rem;
-            line-height: 2rem;
+            line-height: 0.9;
             font-weight: 700;
+
+            &--small {
+                font-size: 1.8rem;
+            }
+        }
+
+        &--transparent {
+            border: 0;
+            background-color: transparent;
+            border-bottom: 2px solid #ccc;
+            padding-left: 0;
+            padding-bottom: 8px;
+            margin-bottom: 26px;
         }
 
         &--orange {
@@ -79,7 +92,7 @@
             justify-content: flex-end;
         }
 
-        &--blog{
+        &--blog {
             margin-top: 0;
             margin-bottom: 60px;
         }
@@ -90,5 +103,14 @@
         padding-top: 60px;
         padding-bottom: 65px;
         margin-bottom: 54px;
+    }
+
+    &--anchorlink {
+        margin-top: -67px;
+    }
+
+    &--table {
+        margin-top: -21px;
+        margin-bottom: 3px;
     }
 }
