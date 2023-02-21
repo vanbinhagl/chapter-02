@@ -1,0 +1,135 @@
+.c-section {
+  margin-top: 43px;
+  margin-bottom: 60px;
+
+  .c-section__header {
+    padding: 14px 14px 12px;
+    padding-left: 20px;
+    border: 1px solid #ffd800;
+    border-left: 7px solid #ffd800;
+    background-color: #fff9da;
+    margin-bottom: 30px;
+    color: #222;
+
+    .c-header__title {
+      font-size: 2.4rem;
+      line-height: 0.9;
+      font-weight: 700;
+
+      &--small {
+        font-size: 1.8rem;
+      }
+    }
+
+    &--transparent {
+      border: 0;
+      background-color: transparent;
+      border-bottom: 2px solid #ccc;
+      padding-left: 0;
+      padding-top: 13px;
+      padding-bottom: 8px;
+      margin-bottom: 26px;
+      transform: translateX(-1px);
+    }
+
+    &--orange {
+      border-color: #f68e56;
+      background-color: #fff2f2;
+    }
+
+    &--blue {
+      border-color: #6dcff6;
+      background-color: #ebebeb;
+    }
+
+    &--link2 {
+      padding-bottom: 14px;
+      margin-bottom: 22px;
+      border: 0;
+      border-left: 7px solid;
+      color: #11638a;
+      background-color: #bcd5e1;
+    }
+
+    &--red {
+      color: #f5989d;
+      background-color: #ffe8e9;
+      transform: translate(0, 1px);
+    }
+  }
+
+  .c-section__body {
+    display: flex;
+    flex-wrap: wrap;
+
+    &--column {
+      flex-direction: column;
+      row-gap: 30px;
+    }
+
+    &--margin {
+      margin-left: -50px;
+    }
+  }
+
+  .c-section__footer {
+    margin-top: 61px;
+    display: flex;
+
+    .c-section__button {
+      display: inline-block;
+      justify-content: center;
+      align-items: center;
+      padding: 21px 95px;
+      border: 2px solid #000;
+      border-radius: 5px;
+      background-color: #ffd800;
+      color: #fff;
+      text-transform: capitalize;
+      font-size: 1.8rem;
+      font-weight: 700;
+      line-height: 1.1;
+
+      &--orange {
+        background-color: #f68e56;
+      }
+
+      &--full {
+        width: 100%;
+        text-align: center;
+        background-color: #6dcff6;
+      }
+    }
+
+    &--new {
+      justify-content: center;
+    }
+
+    &--feature {
+      margin-top: 10px;
+      justify-content: flex-end;
+    }
+
+    &--blog {
+      margin-top: 0;
+      margin-bottom: 60px;
+    }
+  }
+
+  &--gray {
+    background-color: rgb(250, 250, 250);
+    padding-top: 60px;
+    padding-bottom: 65px;
+    margin-bottom: 54px;
+  }
+
+  &--table {
+    margin-top: -21px;
+    margin-bottom: 5px;
+  }
+
+  &--link2 {
+    margin-top: 50px;
+    padding-bottom: 10px;
+  }
+}

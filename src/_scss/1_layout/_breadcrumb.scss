@@ -26,6 +26,18 @@
         }
     }
 
+    .c-breadcrumb__home {
+        &::after {
+            content: "";
+            width: 100%;
+            height: 1px;
+            background-color: #7f7f7f;
+            position: absolute;
+            left: 0;
+            bottom: 2px;
+        }
+    }
+
     .c-breadcrumb__page {
         position: relative;
         text-transform: capitalize;
@@ -51,4 +63,3 @@
         padding-left: 19px;
     }
 }
-

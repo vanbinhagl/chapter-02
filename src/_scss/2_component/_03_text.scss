@@ -1,0 +1,27 @@
+/*------------------------------------------------------------
+text
+------------------------------------------------------------*/
+
+/*
+------------------------------------------------------------*/
+.c-text {
+    margin-bottom: 15px;
+
+    &--link1 {
+        margin-bottom: 16px;
+        font-size: 1.4rem;
+        font-weight: 500;
+        margin-top: 24px;
+        transform: translate(-1px, 1px);
+    }
+
+    &--link2 {
+        line-height: 1.335;
+        margin-left: -1px;
+        color: #222;
+    }
+
+    &--red {
+        color: #c40000;
+    }
+}

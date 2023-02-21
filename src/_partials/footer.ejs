@@ -3,8 +3,8 @@
     <div class="c-footer__breadcrumb">
       <div class="l-container">
         <div class="c-breadcrumb c-breadcrumb--bot">
-          <a href="#" class="c-breadcrumb__link"> HOME </a>
-          <%- (typeof breadcrumb !== 'undefined' ? ` <a href="#" class="c-breadcrumb__page"> ${breadcrumb} </a>` : '' ) %>
+          <a href="../index.html" class="c-breadcrumb__link <%= (typeof breadcrumb !== 'undefined' ? 'c-breadcrumb__home' : '') %>"> HOME </a>
+          <%- (typeof breadcrumb !== 'undefined' ? ` <a href="../${breadcrumb}.html" class="c-breadcrumb__page"> ${breadcrumb} </a>` : '' ) %>
          
         </div>
         
@@ -17,23 +17,23 @@
           <div class="c-box__title">Box link 1</div>
           <ul class="c-box__list">
             <li class="c-box__link">
-              <i class="c-box__icon c-box__icon--circle fa-solid fa-circle"></i
+              <i class="c-box__icon c-box__icon--circle fa fa-circle"></i
               ><a href="#">Link link</a>
             </li>
             <li class="c-box__link">
-              <i class="c-box__icon c-box__icon--circle fa-solid fa-circle"></i
+              <i class="c-box__icon c-box__icon--circle fa fa-circle"></i
               ><a href="#">Link &nbsp;link link</a>
             </li>
             <li class="c-box__link">
-              <i class="c-box__icon c-box__icon--circle fa-solid fa-circle"></i>
+              <i class="c-box__icon c-box__icon--circle fa fa-circle"></i>
               <a href="#">Link &nbsp;link link link link</a>
             </li>
             <li class="c-box__link">
-              <i class="c-box__icon c-box__icon--circle fa-solid fa-circle"></i>
+              <i class="c-box__icon c-box__icon--circle fa fa-circle"></i>
               <a href="#">Link link link</a>
             </li>
             <li class="c-box__link">
-              <i class="c-box__icon c-box__icon--circle fa-solid fa-circle"></i
+              <i class="c-box__icon c-box__icon--circle fa fa-circle"></i
               ><a href="#">Link link link link</a>
             </li>
           </ul>
