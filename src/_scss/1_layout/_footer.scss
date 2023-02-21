@@ -3,7 +3,7 @@ footer
 ------------------------------------------------------------*/
 .c-footer {
     color: #000;
-    padding-top: 57px;
+    padding-top: 55px;
 
     .c-footer__top {
         border-top: 1px solid #ccc;
@@ -36,6 +36,10 @@ footer
             line-height: 1.4;
             display: flex;
             align-items: center;
+
+            &--last {
+                transform: translateX(2px);
+            }
         }
 
         .c-box__icon {

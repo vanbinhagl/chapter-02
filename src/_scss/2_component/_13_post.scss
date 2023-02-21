@@ -27,12 +27,11 @@
 
         .c-post__btn {
             border: 0;
-            background-color: #afafaf;
+            background-color: rgb(175, 175, 175);
             color: #fff;
             font-size: 1.5rem;
-            line-height: 2;
             font-weight: 700;
-            border-radius: 6px;
+            border-radius: 5px;
             width: 100%;
             max-width: 150px;
             height: 50px;
@@ -41,6 +40,7 @@
             align-items: center;
             margin-top: auto;
             margin-left: auto;
+            transform: translate(-1px, -1px);
         }
     }
 
@@ -48,12 +48,18 @@
         height: 190px;
         column-gap: 40px;
     }
+
+    &--anchor2 {
+        
+        width: 235px;
+        margin-bottom: 16px;
+    }
 }
 
 .c-feature__post {
-    width: calc((100% / 3) - 50px);
+    width: 300px;
     margin-left: 50px;
-    margin-bottom: 45px;
+    margin-bottom: 46px;
 }
 
 .c-blog__post {
@@ -74,5 +80,4 @@
 
 .c-post__image {
     height: 185px;
-    
 }

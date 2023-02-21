@@ -2,12 +2,12 @@
   <div class="c-footer__top">
     <div class="c-footer__breadcrumb">
       <div class="l-container">
-        <p>
-          <i class="fa-solid fa-house"></i> HOME <%- (typeof breadcrumb !=
-          'undefined' ? '<i class="c-breadcrumb__arrow fa-solid fa-angle-right"></i>' : '') %> 
-          <%= (typeof breadcrumb != "undefined" ? breadcrumb : "")
-          %>
-        </p>
+        <div class="c-breadcrumb c-breadcrumb--bot">
+          <a href="#" class="c-breadcrumb__link"> HOME </a>
+          <%- (typeof breadcrumb !== 'undefined' ? ` <a href="#" class="c-breadcrumb__page"> ${breadcrumb} </a>` : '' ) %>
+         
+        </div>
+        
       </div>
     </div>
 
@@ -42,27 +42,27 @@
           <div class="c-box__title">Box link 1</div>
           <ul class="c-box__list">
             <li class="c-box__link">
-              <i class="c-box__icon fa-solid fa-chevron-right"></i>
+              <i class="c-box__icon fa fa-chevron-right"></i>
 
               <a href="#">Link link link link link link</a>
             </li>
             <li class="c-box__link">
-              <i class="c-box__icon fa-solid fa-chevron-right"></i>
+              <i class="c-box__icon fa fa-chevron-right"></i>
 
               <a href="#">Link&nbsp; link link link link link link link</a>
             </li>
             <li class="c-box__link">
-              <i class="c-box__icon fa-solid fa-chevron-right"></i>
+              <i class="c-box__icon fa fa-chevron-right"></i>
 
               <a href="#">Link&nbsp; link link link link</a>
             </li>
             <li class="c-box__link">
-              <i class="c-box__icon fa-solid fa-chevron-right"></i>
+              <i class="c-box__icon fa fa-chevron-right"></i>
 
               <a href="#">Link link link link link link link</a>
             </li>
             <li class="c-box__link">
-              <i class="c-box__icon fa-solid fa-chevron-right"></i>
+              <i class="c-box__icon fa fa-chevron-right"></i>
 
               <a href="#">Link link link link link link link link link</a>
             </li>
@@ -71,28 +71,28 @@
         <div>
           <div class="c-box__title">Box link 1</div>
           <ul class="c-box__list">
-            <li class="c-box__link">
-              <i class="c-box__icon fa-solid fa-link"></i>
+            <li class="c-box__link c-box__link--last">
+              <i class="c-box__icon fa fa-link"></i>
 
               <a href="#">Link link link link link link link link</a>
             </li>
-            <li class="c-box__link">
-              <i class="c-box__icon fa-solid fa-link"></i>
+            <li class="c-box__link c-box__link--last">
+              <i class="c-box__icon fa fa-link"></i>
 
               <a href="#">Link&nbsp; link link</a>
             </li>
-            <li class="c-box__link">
-              <i class="c-box__icon fa-solid fa-link"></i>
+            <li class="c-box__link c-box__link--last">
+              <i class="c-box__icon fa fa-link"></i>
 
               <a href="#">Link&nbsp; link link link link</a>
             </li>
-            <li class="c-box__link">
-              <i class="c-box__icon fa-solid fa-link"></i>
+            <li class="c-box__link c-box__link--last">
+              <i class="c-box__icon fa fa-link"></i>
 
               <a href="#">Link link link link link link link link link link</a>
             </li>
-            <li class="c-box__link">
-              <i class="c-box__icon fa-solid fa-link"></i>
+            <li class="c-box__link c-box__link--last">
+              <i class="c-box__icon fa fa-link"></i>
 
               <a href="#">Link link link link</a>
             </li>

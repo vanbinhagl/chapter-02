@@ -1,11 +1,22 @@
 .c-anchorlink {
     display: flex;
-    margin-left: -50px;
-    padding-bottom: 7px;
+    padding: 7px 0;
+    justify-content: space-between;
+
+    .c-anchorlink__button:first-child {
+        margin-left: -1px;
+    }
+
+    .c-anchorlink__button:nth-child(2) {
+        margin-left: -4px;
+    }
+
+    .c-anchorlink__button:last-child {
+        transform: translateX(-1px);
+    }
 
     .c-anchorlink__button {
         width: 300px;
-        margin-left: 50px;
         display: inline-flex;
         justify-content: center;
         align-items: center;
@@ -20,4 +31,45 @@
     .c-anchorlink__icon {
         padding-right: 5px;
     }
+}
+
+.c-anchor1 {
+    margin-top: 58px;
+
+    .c-anchor1__title {
+        padding-bottom: 8px;
+        transform: translate(-1px, -1px);
+    }
+}
+
+.c-anchor2 {
+    margin-top: 8px;
+
+    .c-anchor2__title {
+        padding-bottom: 8px;
+        transform: translate(-1px, -3px);
+    }
+}
+
+.c-anchor3 {
+    margin-top: 37px;
+
+    .c-anchor3__title {
+        padding-bottom: 8px;
+        transform: translate(-1px, -1px);
+    }
+
+    .c-anchor3__body {
+        margin-top: 29px;
+    }
+}
+
+.c-anchor {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #222;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+    transform: translate(-2px, -1px);
+    border-bottom: 2px solid #ccc;
 }

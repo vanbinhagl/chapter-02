@@ -5,8 +5,14 @@ table
 /*
 ------------------------------------------------------------*/
 .c-table {
-    margin-bottom: 47px;
+    margin-bottom: 49px;
     width: 100%;
+    font-size: 1.4rem;
+    font-weight: 500;
+
+    &:last-child {
+        margin-bottom: 54px;
+    }
 
     .c-table__caption {
         margin-top: 3px;
@@ -34,18 +40,21 @@ table
         .c-table__heading {
             border: 1px solid #ccc;
             background-color: #acd373;
-            color: #000;
+            color: #fff;
             padding: 5px;
             height: 36px;
 
             &--gray {
                 background-color: #ece6e6;
                 width: 66px;
+                color: #222;
             }
 
             &--blue {
                 background-color: #6dcff6;
                 width: 66px;
+                color: #222;
+
             }
         }
 
@@ -54,6 +63,30 @@ table
             background-color: #fff;
             color: #000;
             padding: 5px;
+        }
+    }
+}
+
+.c-table--full {
+    padding-top: 33px;
+
+    .c-table__text {
+        font-size: 1.5rem;
+        line-height: 1.4;
+        color: #222;
+    }
+
+    .c-table__body {
+        width: 100%;
+        margin-top: 9px;
+        transform: translateX(-1px);
+
+        .c-table__heading {
+            width: 275px;
+        }
+
+        .c-table__heading:first-child {
+            width: 175px;
         }
     }
 }

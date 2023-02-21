@@ -1,0 +1,73 @@
+.c-quote {
+    border: 1px solid rgb(17, 99, 138);
+    color: rgb(17, 99, 138);
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 19px 22px 20px 28px;
+    border-radius: 5px;
+    position: relative;
+    text-indent: 19px;
+    transform: translate(-1px, 1px);
+
+    .c-quote__content {
+        line-height: 1.33;
+        font-size: 1.5rem;
+    }
+
+    .c-quote__icon {
+        font-size: 2rem;
+        display: inline-block;
+    }
+
+    &::before {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f10d";
+        padding-right: 5px;
+        margin-left: -1px;
+        position: absolute;
+        left: 10px;
+        bottom: 78px;
+    }
+
+    &::after {
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        content: "\f10e";
+        padding-right: 5px;
+        margin-left: -1px;
+        position: absolute;
+        left: 558px;
+        bottom: 18px;
+    }
+
+    &--red {
+        margin-top: 16px;
+        line-height: 1.18;
+        border: 1px solid rgb(245, 152, 157);
+        color: rgb(245, 152, 157);
+        padding: 19px 28px;
+
+        &::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f10d";
+            padding-right: 5px;
+            margin-left: -1px;
+            position: absolute;
+            left: 10px;
+            bottom: 59px;
+        }
+
+        &::after {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f10e";
+            padding-right: 5px;
+            margin-left: -1px;
+            position: absolute;
+            left: 284px;
+            bottom: 19px;
+        }
+    }
+}

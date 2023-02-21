@@ -3,13 +3,52 @@
 .c-breadcrumb {
     padding-top: 20px;
     padding-bottom: 35px;
+    font-size: 1.4rem;
 
-    &--link {
-        padding-top: 25px;
-        padding-bottom: 37px;
+    display: flex;
+    padding: 21px 0 35px 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    transform: translate(0, 1px);
+    color: #000;
+
+    .c-breadcrumb__link {
+        position: relative;
+
+        &::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f015";
+            padding-right: 2px;
+            position: absolute;
+            left: -21px;
+            top: 0;
+        }
+    }
+
+    .c-breadcrumb__page {
+        position: relative;
+        text-transform: capitalize;
+        transform: translateX(26px);
+
+        &::before {
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            content: "\f105";
+            padding-right: 2px;
+            position: absolute;
+            left: -15px;
+            top: 0;
+        }
+    }
+
+    &--link1 {
+        transform: translate(0, 4px);
+    }
+
+    &--bot {
+        padding: 0;
+        padding-left: 19px;
     }
 }
 
-.c-breadcrumb__arrow {
-    padding: 0 5px;
-}

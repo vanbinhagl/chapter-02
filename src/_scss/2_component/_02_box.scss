@@ -2,9 +2,16 @@
 title
 ------------------------------------------------------------*/
 
-
 /*
 ------------------------------------------------------------*/
-.c-title1 {
-	
+.c-box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -50px;
+
+    &--anchor2 {
+        justify-content: space-between;
+        padding-top: 27px;
+        margin-left: 0;
+    }
 }
