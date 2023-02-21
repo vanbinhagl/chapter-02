@@ -1,14 +1,12 @@
 .c-banner {
-    background: url("/assets/img/bg-header.png");
-    height: 360px;
-    padding: 40px;
-    padding-bottom: 30px;
-    display: flex;
-    align-items: flex-end;
+    position: relative;
 
     .c-banner__inner {
         max-width: 410px;
         color: #222;
+        position: absolute;
+        bottom: 30px;
+        left: 40px;
 
         .c-banner__title {
             font-size: 2rem;
